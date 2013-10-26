@@ -1,0 +1,60 @@
+a,
+a:link {
+  cursor: pointer;
+}
+body {
+  padding-top: 4em;
+  font-size: 1em;
+  line-height: 1.8;
+}
+table tfoot th,
+table tbody th {
+  border-top: 1px solid #ddd;
+}
+footer {
+  padding-bottom: 30px;
+}
+img.bg {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#contents {
+  position: relative;
+}
+#main {
+  margin-bottom: 3em;
+  color: rgba(255,255,255,0.8);
+  text-align: center;
+  -webkit-text-shadow: 0 0 30px rgba(0,0,0,0.2);
+  -moz-text-shadow: 0 0 30px rgba(0,0,0,0.2);
+  text-shadow: 0 0 30px rgba(0,0,0,0.2);
+  font-family: 'Josefin Sans', sans-serif;
+}
+#main h1 {
+  margin-bottom: 1em;
+  font-size: 1.5em;
+  line-height: 1.1;
+}
+#main h1 span {
+  display: block;
+  margin-top: 0.3em;
+  font-size: 3.8em;
+}
+#main p {
+  font-size: 1.5em;
+}
+#outline {
+  padding: 2.5em;
+  background: rgba(255,255,255,0.6);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border-top: 1px solid #ddd;
+  color: #333;
+}
+.session img {
+  margin-bottom: 1.4em;
+  border-radius: 100px;
+}
