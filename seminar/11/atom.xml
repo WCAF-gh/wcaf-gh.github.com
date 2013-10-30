@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Your Website</title>
-  <link href="http://website.com/atom.xml" rel="self"/>
-  <link href="http://website.com"/>
-  <updated>2013-10-26T15:47:51.226Z</updated>
-  <id>http://website.com</id>
+  <title>WCAF Vol.11</title>
+  <link href="http://wcaf-gh.github.io/seminar/11//atom.xml" rel="self"/>
+  <link href="http://wcaf-gh.github.io/seminar/11/"/>
+  <updated>2013-10-29T15:38:31.045Z</updated>
+  <id>http://wcaf-gh.github.io/seminar/11/</id>
   <author>
-    <name>Your Name</name>
+    <name>≧[ﾟ∀ﾟ]≦</name>
     <email>your@email.com</email>
   </author>
 
   
     <entry>
       <title>This is a Blog Post</title>
-      <link href="http://website.com//posts/hello"/>
+      <link href="http://wcaf-gh.github.io/seminar/11///posts/hello"/>
       <updated>2013-10-23T13:46:34.000Z</updated>
-      <id>http://website.com//posts/hello</id>
+      <id>http://wcaf-gh.github.io/seminar/11///posts/hello</id>
       <content type="html">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
@@ -23,10 +23,11 @@
     &lt;meta charset=&quot;utf-8&quot;&gt;
     &lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;
     &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot;&gt;
-    &lt;title&gt;This is a Blog Post | Your Website&lt;/title&gt;
-    &lt;meta name=&quot;description&quot; content=&quot;When your website appears in search results in say Google, the text here will be shown underneath your website's title.&quot;&gt;
-    &lt;meta name=&quot;keywords&quot; content=&quot;place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website&quot;&gt;
-    &lt;meta name=&quot;author&quot; content=&quot;Your Name&quot;&gt;&lt;meta name=&quot;generator&quot; content=&quot;DocPad v6.53.4&quot; /&gt;
+    &lt;title&gt;This is a Blog Post | WCAF Vol.11&lt;/title&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;12月7日に11回目のWCAFセミナーイベントを開催します。今回は「for Designer &amp;amp; Programmer」というテーマで、デザイナーさんとプログラマーさん向けの勉強会です。
+ゲストスピーカーとして、東京の「P4D デザイナー向けプログラム部」から4人のクリエーターさんをお招きしてお話していただきます。デザインを勉強したいプログラマーさん、プログラミングを勉強したいデザイナーさんはぜひご参加ください。&quot;&gt;
+    &lt;meta name=&quot;keywords&quot; content=&quot;≧[ﾟ∀ﾟ]≦&quot;&gt;
+    &lt;meta name=&quot;author&quot; content=&quot;≧[ﾟ∀ﾟ]≦&quot;&gt;&lt;meta name=&quot;generator&quot; content=&quot;DocPad v6.53.4&quot; /&gt;
     &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
     &lt;!--[if lt IE 9]&gt;
     &lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
@@ -35,7 +36,7 @@
 	cursor: wait !important;
 	opacity: 0;
 	transition: opacity 0.5s ease;
-}&lt;/style&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;./vendor/prettify.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;./vendor/twitter-bootstrap/css/bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;./vendor/twitter-bootstrap/css/bootstrap-responsive.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;./styles/style.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;http://fonts.googleapis.com/css?family=Josefin+Sans:100&quot; /&gt;
+}&lt;/style&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;./vendor/prettify.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;./vendor/twitter-bootstrap/css/bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;./vendor/twitter-bootstrap/css/bootstrap-responsive.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;./styles/style.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;http://fonts.googleapis.com/css?family=Josefin+Sans:100&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css&quot; /&gt;
   &lt;/head&gt;
   &lt;body&gt;
     &lt;div class=&quot;container&quot;&gt;

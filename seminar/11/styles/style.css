@@ -3,9 +3,11 @@ a:link {
   cursor: pointer;
 }
 body {
-  padding-top: 4em;
+  padding-top: 6em;
   font-size: 1em;
   line-height: 1.8;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Helvetica, Arial, Verdana, sans-serif;
+  color: #025362;
 }
 table tfoot th,
 table tbody th {
@@ -16,7 +18,7 @@ footer {
 }
 img.bg {
   width: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
 }
@@ -24,12 +26,12 @@ img.bg {
   position: relative;
 }
 #main {
-  margin-bottom: 3em;
-  color: rgba(255,255,255,0.8);
-  text-align: center;
-  -webkit-text-shadow: 0 0 30px rgba(0,0,0,0.2);
-  -moz-text-shadow: 0 0 30px rgba(0,0,0,0.2);
-  text-shadow: 0 0 30px rgba(0,0,0,0.2);
+  width: 85%;
+  margin: 0 auto 7em;
+  color: #fff;
+  -webkit-text-shadow: 0 0 30px rgba(0,0,0,0.8);
+  -moz-text-shadow: 0 0 30px rgba(0,0,0,0.8);
+  text-shadow: 0 0 30px rgba(0,0,0,0.8);
   font-family: 'Josefin Sans', sans-serif;
 }
 #main h1 {
@@ -47,14 +49,134 @@ img.bg {
 }
 #outline {
   padding: 2.5em;
-  background: rgba(255,255,255,0.6);
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
+  background: rgba(255,255,255,0.7);
   border-top: 1px solid #ddd;
+  color: #000;
+}
+#outline .read {
+  width: 90%;
+  margin: 0 auto;
+}
+#outline .btn-area {
+  padding: 2em;
+  background: rgba(255,255,255,0.8);
+  text-align: center;
+}
+#outline h2 {
+  width: 90%;
+  margin: 2em auto 0em;
+  font-size: 3em;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  color: #025362;
+}
+#outline .sub-heading {
+  width: 90%;
+  margin: 0 auto 2.5em;
+  color: #025362;
+  font-size: 0.8em;
+}
+#info {
+  width: 90%;
+  margin: 0 auto 2em;
+}
+#info th {
+  width: 20%;
+  padding: 0.6em 0.8em;
+  border: #ccc 1px;
+  border-style: none none solid none;
+  text-align: left;
   color: #333;
+}
+#info td {
+  width: 80%;
+  padding: 0.6em 2em;
+  border: #ccc 1px;
+  border-style: none none solid none;
 }
 .session img {
   margin-bottom: 1.4em;
   border-radius: 100px;
+}
+.session .span4 {
+  width: 273px;
+  text-align: center;
+}
+.session .icons {
+  margin: 0 0 1em;
+  padding: 0;
+  list-style: none;
+}
+.session .icons li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.session .icons li a {
+  display: inline-block;
+  width: 80px;
+  height: 50px;
+  padding-top: 30px;
+  background: #025362;
+  border-radius: 200px;
+  color: #fff;
+  font-size: 1.8em;
+}
+@media (min-width: 1200px) {
+  .session .span4 {
+    width: 343px;
+  }
+}
+@media (max-width: 979px) and (min-width: 768px) {
+  .session .span4 {
+    width: 312px;
+  }
+}
+#timetable {
+  width: 90%;
+  margin: 0 auto 3em;
+}
+#timetable th {
+  width: 20%;
+  padding: 0.8em 0.8em;
+  border: #ccc 1px;
+  border-style: none none solid none;
+}
+#timetable td {
+  width: 80%;
+  padding: 0.8em 0.8em;
+  border: #ccc 1px;
+  border-style: none none solid none;
+}
+.info {
+  width: 90%;
+  margin: 0 auto 2em;
+}
+.info dt {
+  margin: 0 0 8px 0;
+  padding: 0;
+}
+.info dd {
+  margin: 0;
+  padding: 0;
+}
+#access {
+  width: 90%;
+  margin: 0 auto;
+}
+#access iframe {
+  width: 100%;
+  height: 450px;
+  margin: 0 auto 10px;
+}
+#access li {
+  font-size: 13px;
+  margin-bottom: 0.4em;
+}
+footer {
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+}
+footer div {
+  position: relative;
 }
